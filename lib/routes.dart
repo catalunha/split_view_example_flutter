@@ -5,6 +5,6 @@ import 'first_page.dart';
 import 'second_page.dart';
 
 final availablePages = <String, WidgetBuilder>{
-  'First Page': (_) => FirstPage(),
+  'First Page': (_) => const FirstPage(),
   'Second Page': (_) => SecondPage(),
 };
